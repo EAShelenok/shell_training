@@ -5,10 +5,7 @@ def add_everything_up(a, b):
         return str(f'Success!!! Result: {c}')
     except TypeError as exc:
         print(f'We have a problem ({exc}). But there is a way out =)')
-        if (isinstance(a, int) or isinstance(a, float)) and isinstance(b, str):
-            c = str(a) + b
-        elif isinstance(a, str) and (isinstance(b, int) or isinstance(b, float)):
-            c = a + str(b)
+        c = str(a) +  str(b)
         return str(f'Alternative result: {c}')
 
 if __name__ == '__main__':
