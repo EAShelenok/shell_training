@@ -17,7 +17,7 @@ def get_advanced_writer(file_name):
 
     return write_everything
 
-print("Для проверки работы закмыкания откройте файл 'example.txt'")
+print("Для проверки работы замыкания откройте файл 'example.txt'")
 write = get_advanced_writer('example.txt')
 write('Это строчка', ['А', 'это', 'уже', 'число', 5, 'в', 'списке'])
 
